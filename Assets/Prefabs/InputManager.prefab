@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1061338850537130}
+  m_IsPrefabParent: 1
+--- !u!1 &1061338850537130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4400747014668756}
+  - component: {fileID: 114425099636801154}
+  m_Layer: 0
+  m_Name: InputManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4400747014668756
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1061338850537130}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114425099636801154
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1061338850537130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0347c8a680975d74088fe74f7434e189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_inputMappings:
+  - name: Up
+    positiveKeyName: W
+    negativeKeyName: 
+    buttonName: L_YAxis_1
+    axisPositiveState: 0
+    isAxis: 0
+  - name: Down
+    positiveKeyName: S
+    negativeKeyName: 
+    buttonName: L_YAxis_1
+    axisPositiveState: 1
+    isAxis: 0
+  - name: Left
+    positiveKeyName: A
+    negativeKeyName: 
+    buttonName: L_XAxis_1
+    axisPositiveState: 0
+    isAxis: 0
+  - name: Right
+    positiveKeyName: D
+    negativeKeyName: 
+    buttonName: L_XAxis_1
+    axisPositiveState: 1
+    isAxis: 0
+  - name: A
+    positiveKeyName: Space
+    negativeKeyName: 
+    buttonName: A_1
+    axisPositiveState: 0
+    isAxis: 0
+  - name: B
+    positiveKeyName: Backspace
+    negativeKeyName: 
+    buttonName: B_1
+    axisPositiveState: 0
+    isAxis: 0
+  - name: Pause
+    positiveKeyName: Escape
+    negativeKeyName: 
+    buttonName: Start_1
+    axisPositiveState: 0
+    isAxis: 0
+  - name: Horizontal
+    positiveKeyName: D
+    negativeKeyName: A
+    buttonName: L_XAxis_1
+    axisPositiveState: 0
+    isAxis: 1
+  - name: Vertical
+    positiveKeyName: W
+    negativeKeyName: S
+    buttonName: L_YAxis_1
+    axisPositiveState: 0
+    isAxis: 1
+  m_controllerButtonNames:
+  - A_1
+  - A_2
+  - A_3
+  - A_4
+  - B_1
+  - B_2
+  - B_3
+  - B_4
+  - X_1
+  - X_2
+  - X_3
+  - X_4
+  - Y_1
+  - Y_2
+  - Y_3
+  - Y_4
+  - LB_1
+  - LB_2
+  - LB_3
+  - LB_4
+  - RB_1
+  - RB_2
+  - RB_3
+  - RB_4
+  - Back_1
+  - Back_2
+  - Back_3
+  - Back_4
+  - Start_1
+  - Start_2
+  - Start_3
+  - Start_4
+  - LS_1
+  - LS_2
+  - LS_3
+  - LS_4
+  - RS_1
+  - RS_2
+  - RS_3
+  - RS_4
+  m_controllerAxisNames:
+  - L_XAxis_1
+  - L_XAxis_2
+  - L_XAxis_3
+  - L_XAxis_4
+  - L_YAxis_1
+  - L_YAxis_2
+  - L_YAxis_3
+  - L_YAxis_4
+  - R_YAxis_1
+  - R_YAxis_2
+  - R_YAxis_3
+  - R_YAxis_4
+  - R_XAxis_1
+  - R_XAxis_2
+  - R_XAxis_3
+  - R_XAxis_4
+  - DPad_XAxis_1
+  - DPad_XAxis_2
+  - DPad_XAxis_3
+  - DPad_XAxis_4
+  - DPad_YAxis_1
+  - DPad_YAxis_2
+  - DPad_YAxis_3
+  - DPad_YAxis_4
+  - TriggersR_1
+  - TriggersR_2
+  - TriggersR_3
+  - TriggersR_4
+  - TriggersL_1
+  - TriggersL_2
+  - TriggersL_3
+  - TriggersL_4
+  m_reasignDelay: 0.1
