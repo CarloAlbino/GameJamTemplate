@@ -13,30 +13,30 @@ public class TestScript : MonoBehaviour {
             if (InputManager.Instance.GetButtonDown("Up"))
             {
                 if (m_cut)
-                    m_camControl.CutToCamera(0);
+                    m_camControl.CutToCamera(0, 80.0f);
                 else
-                    m_camControl.MoveCamera(0, 2);
+                    m_camControl.MoveCamera(0, 2, 80.0f);
             }
             else if (InputManager.Instance.GetButtonDown("Down"))
             {
                 if (m_cut)
-                    m_camControl.CutToCamera(1);
+                    m_camControl.CutToCamera(1, 10, true);
                 else
-                    m_camControl.MoveCamera(1, 4);
+                    m_camControl.MoveCamera(1, 4, 10, true);
             }
             else if (InputManager.Instance.GetButtonDown("Left"))
             {
                 if (m_cut)
-                    m_camControl.CutToCamera(2);
+                    m_camControl.CutToCamera(2, 30, false);
                 else
-                    m_camControl.MoveCamera(2, 1);
+                    m_camControl.MoveCamera(2, 1, 30, false);
             }
             else if (InputManager.Instance.GetButtonDown("Right"))
             {
                 if (m_cut)
-                    m_camControl.CutToCamera(3);
+                    m_camControl.CutToCamera(3, 3, true);
                 else
-                    m_camControl.MoveCamera(3, 5);
+                    m_camControl.MoveCamera(3, 5, 3, true);
             }
             else if (InputManager.Instance.GetButtonDown("A"))
             {
